@@ -27,7 +27,7 @@ class TempFiles(object):
 
     def populate(self):
         current_dir=os.getcwd()
-        myfiles= [ f for f in listdir(current_dir) if (isfile(join(current_dir,f)) and f!='test3.py') ]
+        myfiles= [ f for f in listdir(current_dir) if (isfile(join(current_dir,f)) and f!='ExternalSort.py') ]
 
         i = 0
 
